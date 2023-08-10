@@ -18,6 +18,7 @@
             :class="['lesson-card', { 'lesson-card-hover': lesson.hover }]"
             @mouseover="lesson.hover = true"
             @mouseout="lesson.hover = false"
+            @click="lesson.goTo"
           >
             <v-img
               :src="lesson.image"
@@ -129,6 +130,9 @@ export default {
                 "La representación de los conjuntos no es más que una forma de mostrar cómo se escriben o cómo se pueden dibujar.",
               image: require("@/assets/img/third/lesson1.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/third/conjuntos");
+              }
             },
 
             {

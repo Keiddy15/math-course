@@ -3,6 +3,7 @@ import AppLayout from "@/layouts/AppLayout";
 import HomeView from "@/views/HomeView";
 import Lessons from "@/views/Lessons";
 import Contact from "@/views/Contact";
+import Lesson from "@/views/Lesson";
 
 const routes = [
   {
@@ -23,6 +24,11 @@ const routes = [
         name: "Contact",
         path: "/contact",
         component: Contact,
+      },
+      {
+        name: "Lesson",
+        path: "/lessons/:course/:lesson",
+        component: Lesson,
       },
     ],
   },
