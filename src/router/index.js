@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import AppLayout from "@/layouts/AppLayout";
-import HomeView from "@/views/HomeView";
+import Courses from "@/views/Courses";
+import Home from "@/views/Home";
 import Lessons from "@/views/Lessons";
 import Contact from "@/views/Contact";
 import Lesson from "@/views/Lesson";
@@ -11,9 +12,14 @@ const routes = [
     component: AppLayout,
     children: [
       {
-        name: "HomeView",
+        name: "Home",
         path: "",
-        component: HomeView,
+        component: Home,
+      },
+      {
+        name: "Courses",
+        path: "/courses",
+        component: Courses,
       },
       {
         name: "Lessons",
