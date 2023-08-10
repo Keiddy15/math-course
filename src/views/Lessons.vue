@@ -134,7 +134,7 @@ export default {
               hover: false,
               goTo: () => {
                 this.$router.push("/lessons/third/conjuntos");
-              }
+              },
             },
 
             {
@@ -145,8 +145,8 @@ export default {
               image: require("@/assets/img/third/lesson2.png"),
               hover: false,
               goTo: () => {
-                this.$router.push("/lessons/third/orden-numeros-naturales")
-              }
+                this.$router.push("/lessons/third/orden-numeros-naturales");
+              },
             },
             {
               id: 3,
@@ -156,8 +156,8 @@ export default {
               image: require("@/assets/img/third/lesson3.png"),
               hover: false,
               goTo: () => {
-                this.$router.push("/lessons/third/relacion-de-pertenencia")
-              }
+                this.$router.push("/lessons/third/relacion-de-pertenencia");
+              },
             },
             {
               id: 4,
@@ -167,8 +167,8 @@ export default {
               image: require("@/assets/img/fourth/lesson15.png"),
               hover: false,
               goTo: () => {
-                this.$router.push("/lessons/third/sistema-decimal")
-              }
+                this.$router.push("/lessons/third/sistema-decimal");
+              },
             },
             {
               id: 5,
@@ -178,8 +178,8 @@ export default {
               image: require("@/assets/img/third/lesson5.png"),
               hover: false,
               goTo: () => {
-                this.$router.push("/lessons/third/sumas")
-              }
+                this.$router.push("/lessons/third/sumas");
+              },
             },
           ],
           [
@@ -191,8 +191,8 @@ export default {
               image: require("@/assets/img/third/lesson7.png"),
               hover: false,
               goTo: () => {
-                this.$router.push("/lessons/third/multiplos-numero")
-              }
+                this.$router.push("/lessons/third/multiplos-numero");
+              },
             },
             {
               id: 8,
@@ -202,8 +202,8 @@ export default {
               image: require("@/assets/img/third/lesson8.png"),
               hover: false,
               goTo: () => {
-                this.$router.push("/lessons/third/criterios-divisibilidad")
-              }
+                this.$router.push("/lessons/third/criterios-divisibilidad");
+              },
             },
             {
               id: 9,
@@ -213,8 +213,8 @@ export default {
               image: require("@/assets/img/third/lesson9.png"),
               hover: false,
               goTo: () => {
-                this.$router.push("/lessons/third/numeros-primos-compuestos")
-              }
+                this.$router.push("/lessons/third/numeros-primos-compuestos");
+              },
             },
             {
               id: 10,
@@ -224,8 +224,8 @@ export default {
               image: require("@/assets/img/third/lesson10.png"),
               hover: false,
               goTo: () => {
-                this.$router.push("/lessons/third/multiplicacion")
-              }
+                this.$router.push("/lessons/third/multiplicacion");
+              },
             },
             {
               id: 6,
@@ -235,8 +235,8 @@ export default {
               image: require("@/assets/img/third/lesson6.png"),
               hover: false,
               goTo: () => {
-                this.$router.push("/lessons/third/restas")
-              }
+                this.$router.push("/lessons/third/restas");
+              },
             },
           ],
           [
@@ -248,8 +248,8 @@ export default {
               image: require("@/assets/img/third/lesson11.png"),
               hover: false,
               goTo: () => {
-                this.$router.push("/lessons/third/fracciones")
-              }
+                this.$router.push("/lessons/third/fracciones");
+              },
             },
           ],
         ];
@@ -265,6 +265,9 @@ export default {
                 "Para leer un número se separan sus cifras de derecha a izquierda de tres en tres. Luego se nombran de izquierda a derecha comenzando por las centenas, decenas y unidades correspondientes a la clase más elevada, continuando con la de menor valor y así sucesivamente hasta que termine con el orden de las unidades simples.ƒ",
               image: require("@/assets/img/fourth/lesson1.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/lectura-escritura-numeros");
+              },
             },
             {
               id: 2,
@@ -273,6 +276,9 @@ export default {
                 "Son expresiones numéricas que pueden contener suma, resta, multiplicación, división",
               image: require("@/assets/img/fourth/lesson2.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/operaciones-combinadas");
+              },
             },
             {
               id: 3,
@@ -281,6 +287,9 @@ export default {
                 "Los números naturales son los que utilizamos en la vida cotidiana para contar u ordenar y pertenecen al conjunto de números enteros positivos. Nosotros consideramos que es un número natural, aunque no todos los autores están de acuerdo.",
               image: require("@/assets/img/fifth/lesson9.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/numeros-naturales");
+              },
             },
             {
               id: 6,
@@ -288,8 +297,10 @@ export default {
               description:
                 "El sistema decimal es un sistema numérico que se basa en la utilización de diez símbolos distintos para representar cantidades. Estos símbolos son los dígitos del 0 al 9 este Sistema cada posición es una potencia de 10",
               image: require("@/assets/img/fourth/lesson4.png"),
-
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/sistema-decimal");
+              },
             },
             {
               id: 7,
@@ -298,15 +309,11 @@ export default {
                 "En matemáticas, un conjunto es una colección de elementos considerada en sí misma como un objeto. Los elementos de un conjunto, pueden ser las siguientes: personas, números, colores, letras, figuras, etc.",
               image: require("@/assets/img/third/lesson1.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/conjuntos");
+              },
             },
-            {
-              id: 12,
-              title: "Multiplicación de números naturales",
-              description:
-                "Está operación lógica se trata en sumar  uno de los factores consigo mismo antes veces que indique el otro factor.",
-              image: require("@/assets/img/third/lesson10.png"),
-              hover: false,
-            },
+            
           ],
           [
             {
@@ -316,6 +323,9 @@ export default {
                 "Son reglas matemáticas que nos permiten determinar si un número es divisible por otro sin necesidad de realizar la división completa. Esto es muy útil en matemáticas y pueden facilitar cálculos.",
               image: require("@/assets/img/third/lesson8.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/criterios-divisibilidad");
+              },
             },
             {
               id: 3,
@@ -324,6 +334,9 @@ export default {
                 "Se llaman fracciones propias a aquellas que representan números menores que la unidad. Y ¿cómo son estas fracciones? Todas las fracciones que representan un número menor que la unidad se caracterizan por tener el numerador menor que el Fracciones impropias",
               image: require("@/assets/img/third/lesson11.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/fracciones");
+              },
             },
             {
               id: 4,
@@ -332,6 +345,9 @@ export default {
                 "El máximo común divisor (MCD), también conocido como máximo común divisor (MCD) o mayor divisor común (MDC), de dos o más números enteros es el número más grande que divide exactamente a todos ellos. En otras palabras, es el mayor número que es un divisor común de esos números.",
               image: require("@/assets/img/fourth/lesson9.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/maximo-comun-divisor");
+              },
             },
             {
               id: 5,
@@ -340,14 +356,20 @@ export default {
                 "Un número compuesto es un número entero mayor que 1 que tiene más de dos divisores positivos este si tiene más divisores que los número primos que solo tiene dos.",
               image: require("@/assets/img/fifth/lesson4.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/numeros-compuestos");
+              },
             },
             {
               id: 6,
-              title: "Mínimo común múltiplo",
+              title: "Mínimo común multiplo",
               description:
                 "El mínimo común múltiplo (MCM) es un concepto matemático que se aplica principalmente en aritmética y álgebra. El MCM de dos o más números enteros positivos es el número más pequeño que es múltiplo de todos ellos. Para encontrar el MCM de dos números, hay varias formas de hacerlo. Una de las más comunes es mediante la descomposición en factores primos",
               image: require("@/assets/img/fourth/lesson11.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/minimo-comun-multiplo");
+              },
             },
             {
               id: 7,
@@ -356,6 +378,9 @@ export default {
                 "Los números primos son aquellos números enteros mayores que 1 que solo tienen dos divisores: 1 y sí mismos esta regla es obligatorio ya que si esto no se cumple estos número no se pueden llamar número primos.",
               image: require("@/assets/img/fifth/lesson4.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/numeros-primos");
+              },
             },
             {
               id: 8,
@@ -364,6 +389,9 @@ export default {
                 "Son aquellos números que obtenemos a multiplicarlos por el resto de los números naturales",
               image: require("@/assets/img/fourth/lesson13.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/multiplos");
+              },
             },
             {
               id: 9,
@@ -372,6 +400,9 @@ export default {
                 "Un número es divisor de otro cuando lo divide exactamente.",
               image: require("@/assets/img/fourth/lesson14.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/divisores");
+              },
             },
           ],
           [
@@ -381,8 +412,10 @@ export default {
               description:
                 "Un número decimal es un número no entero, compuesto por una parte entera y una parte decimal, y se usan cuando queremos representar números que son más pequeños que la unidad.",
               image: require("@/assets/img/fourth/lesson15.png"),
-
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/decimales");
+              },
             },
             {
               id: 1,
@@ -391,6 +424,9 @@ export default {
                 "Una fracción es un número, que se obtiene de dividir un entero en partes iguales. Por ejemplo cuando decimos una cuarta parte de la torta, estamos dividiendo la torta en cuatro partes y consideramos una de ellas.",
               image: require("@/assets/img/third/lesson11.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fourth/fracciones3");
+              },
             },
           ],
         ];
@@ -400,19 +436,14 @@ export default {
           [
             {
               id: 7,
-              title: "Adicción",
+              title: "Adición",
               description:
                 "La adición y sustracción son operaciones aritméticas que están presentes en numerosos contextos y situaciones de la vida cotidiana infantil y adulta, particularmente los de compra y venta así como en los relacionados con medidas, sea del tiempo, de volumen, de peso, etc.",
               image: require("@/assets/img/fifth/lesson7.png"),
               hover: false,
-            },
-            {
-              id: 8,
-              title: "Multiplicación Y División números naturales",
-              description:
-                "Multiplicar dos números naturales consiste en sumar uno de los factores consigo mismo tantas veces como indica el otro factor. La división es la operación Matemática que nos permite con mayor exactitud averiguar cuántas veces una cantidad está contenida en otra.",
-              image: require("@/assets/img/fifth/lesson8.png"),
-              hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/adicion");
+              },
             },
             {
               id: 9,
@@ -421,6 +452,9 @@ export default {
                 "Los números naturales son los que utilizamos en la vida cotidiana para contar u ordenar y pertenecen al conjunto de números enteros positivos.",
               image: require("@/assets/img/fifth/lesson9.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/numeros-naturales");
+              },
             },
             {
               id: 6,
@@ -429,6 +463,9 @@ export default {
                 "Se pueden representar entre llaves o por medio de diagramas de Venn - Euler",
               image: require("@/assets/img/fifth/lesson6.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/representacion-conjuntos");
+              },
             },
           ],
           [
@@ -439,6 +476,9 @@ export default {
                 "Los múltiplos son los números que se obtienen al multiplicar un número por otros números. Los divisores son los números que pueden dividir a otro número sin dejar residuo.",
               image: require("@/assets/img/fifth/lesson2.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/multiplos-divisores");
+              },
             },
             {
               id: 3,
@@ -447,6 +487,9 @@ export default {
                 "Los criterios de divisibilidad son reglas que nos ayudan a saber si un número es divisible por otro sin necesidad de hacer la división completa.",
               image: require("@/assets/img/fifth/lesson3.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/criterios-divisibilidad");
+              },
             },
             {
               id: 5,
@@ -455,6 +498,9 @@ export default {
                 "El mínimo común múltiplo es el número más pequeño que es múltiplo de dos o más números al mismo tiempo.",
               image: require("@/assets/img/fifth/lesson5.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/minimo-comun-multiplo");
+              },
             },
 
             {
@@ -464,6 +510,9 @@ export default {
                 "Los números primos son aquellos que solo pueden dividirse entre 1 y ellos mismos sin dejar residuo. - Los números compuestos son aquellos que tienen más divisores además de 1 y ellos mismos.",
               image: require("@/assets/img/fifth/lesson4.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/numeros-primos-compuestos");
+              },
             },
             {
               id: 1,
@@ -472,6 +521,9 @@ export default {
                 "La potenciación es cuando multiplicamos un número por sí mismo varias veces.",
               image: require("@/assets/img/fifth/lesson1.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/potenciacion");
+              },
             },
           ],
           [
@@ -482,6 +534,9 @@ export default {
                 "Hacer la división normal, como si no estuviese la coma del número decimal. En el momento en el que bajemos la primera cifra de la derecha de la coma tenemos que poner una coma en el cociente. Ejemplo: Vamos a dividir 360,57 entre 51. Empezamos dividiendo 360 entre 51.7",
               image: require("@/assets/img/fifth/lesson10.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/division-decimal-natural");
+              },
             },
             {
               id: 2,
@@ -490,6 +545,9 @@ export default {
                 "Las fracciones en cuyo denominador hay un 10 o una potencia de 10 (es decir, un 1 seguido de ceros, como ocurre en 100, 1000, etc.) se denominan fracciones decimales",
               image: require("@/assets/img/fifth/lesson11.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/fracciones-expresion-decimal");
+              },
             },
             {
               id: 3,
@@ -498,6 +556,9 @@ export default {
                 "Para ordenar dos o más números decimales, lo hacemos comparando los números en la misma posición del punto decimal. Por ejemplo, para encontrar el mayor de los siguientes números 12,48; 12,5 y 12,458 lo primero que hacemos es fijarnos en la parte entera del decimal",
               image: require("@/assets/img/fifth/lesson12.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/orden-numeros-decimales");
+              },
             },
             {
               id: 4,
@@ -506,6 +567,9 @@ export default {
                 "Los polinomios aritméticos son expresiones que combinan las cuatro operaciones básicas. Aritmética significa operaciones que involucran números únicamente. El propósito de un polinomio aritmético simplificado es obtener el resultado de la expresión cuando se realizan todas las operaciones especificadas.",
               image: require("@/assets/img/fifth/lesson13.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/fifth/polinomio-aritmetico");
+              },
             },
           ],
         ];
