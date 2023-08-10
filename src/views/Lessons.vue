@@ -54,6 +54,7 @@
             :class="['lesson-card', { 'lesson-card-hover': lesson.hover }]"
             @mouseover="lesson.hover = true"
             @mouseout="lesson.hover = false"
+            @click="lesson.goTo"
           >
             <v-img
               :src="lesson.image"
@@ -89,6 +90,7 @@
             :class="['lesson-card', { 'lesson-card-hover': lesson.hover }]"
             @mouseover="lesson.hover = true"
             @mouseout="lesson.hover = false"
+            @click="lesson.goTo"
           >
             <v-img
               :src="lesson.image"
@@ -142,6 +144,9 @@ export default {
                 "La relación de orden en los números naturales implica que algunos números representan una cantidad mayor o menor que otros. Esto nos permite decir que existen números mayores, menores o iguales, y utilizamos símbolos para determinar cuál es mayor o menor según ciertas reglas.",
               image: require("@/assets/img/third/lesson2.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/third/orden-numeros-naturales")
+              }
             },
             {
               id: 3,
@@ -150,6 +155,9 @@ export default {
                 "La relación de pertenencia asocia a un elemento con su conjunto. Si un elemento está en un conjunto, se dice que pertenece al conjunto y en este caso usamos el símbolo ∈ para mostrar esta relación.",
               image: require("@/assets/img/third/lesson3.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/third/relacion-de-pertenencia")
+              }
             },
             {
               id: 4,
@@ -157,8 +165,10 @@ export default {
               description:
                 "Es una técnica muy utilizada en la numeración en que las cantidades utilizan como bases al numero diez y sus potencias.",
               image: require("@/assets/img/fourth/lesson15.png"),
-
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/third/sistema-decimal")
+              }
             },
             {
               id: 5,
@@ -167,6 +177,9 @@ export default {
                 "Sumar es juntar 2 o más cosas para saber cuántas hay en total.",
               image: require("@/assets/img/third/lesson5.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/third/sumas")
+              }
             },
           ],
           [
@@ -177,6 +190,9 @@ export default {
                 "Son los números naturales que se logran obtener al momento de multiplicar un numero por todos los reales (se multiplican los números que están en la tabla hasta el infinito)",
               image: require("@/assets/img/third/lesson7.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/third/multiplos-numero")
+              }
             },
             {
               id: 8,
@@ -185,6 +201,9 @@ export default {
                 "Son aquellas reglas que nos dicen que un número es divisible Por otro sin hacer una división ",
               image: require("@/assets/img/third/lesson8.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/third/criterios-divisibilidad")
+              }
             },
             {
               id: 9,
@@ -193,6 +212,9 @@ export default {
                 "Los números primos son aquellos que SOLO son divisibles entre 1 y ellos mismos, es decir que al intentar dividirlos por cualquier otro número el resultado será un número no entero",
               image: require("@/assets/img/third/lesson9.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/third/numeros-primos-compuestos")
+              }
             },
             {
               id: 10,
@@ -201,6 +223,9 @@ export default {
                 "La multiplicación es una operación matemática que pertenece a las cuatro operaciones básicas o elementales de la matemática",
               image: require("@/assets/img/third/lesson10.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/third/multiplicacion")
+              }
             },
             {
               id: 6,
@@ -209,6 +234,9 @@ export default {
                 " Es una operación que tiene como función quitar, reducir, separar, etc.",
               image: require("@/assets/img/third/lesson6.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/third/restas")
+              }
             },
           ],
           [
@@ -219,6 +247,9 @@ export default {
                 "La fracción es aquella que representa el número de partes que cogemos o utilizamos de algo que está dividido en partes iguales",
               image: require("@/assets/img/third/lesson11.png"),
               hover: false,
+              goTo: () => {
+                this.$router.push("/lessons/third/fracciones")
+              }
             },
           ],
         ];
