@@ -13,7 +13,7 @@
                   <v-btn href="/courses" width="200px" class="mt-5" color="primary">A ello</v-btn>
             </v-col>
             <v-col cols="6">
-                <img :src="require('../assets/img/user.png')" style="width: 100%"/>
+                <img :src="require('../assets/img/iconruben.jpeg')" style="width: 100%"/>
             </v-col>
   
           </v-row>
