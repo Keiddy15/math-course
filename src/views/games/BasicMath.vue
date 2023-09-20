@@ -15,7 +15,7 @@
         <iframe
       src="https://es.educaplay.com/recursos-educativos/15672933-conceptos_matematicos_basicos.html"
       frameborder="0"
-      width="80%"
+      width="100%"
       height="500px"
     ></iframe>
     </div>
