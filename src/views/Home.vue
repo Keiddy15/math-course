@@ -25,13 +25,13 @@
         </v-col>
         <v-col cols="6">
           <img
-            :src="require('../assets/img/background-math.jpg')"
+          src="https://i.ibb.co/k1rYkpD/background-math.jpg" 
             style="width: 100%"
           />
         </v-col>
       </v-row>
     </v-container>
-    <v-parallax :src="require('../assets/img/parallax.jpg')" height="700px">
+    <v-parallax  src="https://i.ibb.co/gVSDJdf/parallax.jpg" height="700px">
       <div
         class="d-flex flex-column fill-height justify-center align-center text-white"
       >
