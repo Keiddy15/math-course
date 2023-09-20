@@ -121,42 +121,153 @@ export default {
         } else if (lesson == "sistema-decimal") {
           this.lesson = {
             title: "Sistema decimal",
-            description: `Es una técnica muy utilizada en la numeración en que las cantidades utilizan como bases al numero diez y sus potencias.
-            <p style="text-align: center;">
-                El cero no tiene valor por sí mismo, pero este si maneja un valor posicional, por el lugar que este ocupa.
-            </p>
+            description: `
+            El sistema de numeración decimal es una forma de representación en la que cada dígito tiene un valor numérico y posicional. Se denomina decimal porque tiene 10 símbolos para expresar cualquier cantidad incluido el cero.
+            <b>Ejemplos:</b>
+            Todo número tiene dos valores
+            <ol class="ml-12">
+            <li>Valor por sí mismo: que es siempre el mismo valor esté donde esté colocada cada cifra.</li>
+            <li>Valor de posición: Es el valor que tiene cada cifra de acuerdo al lugar que ocupa en la cantidad.</li>
+            </ol>
+          Observemos la tabla siguiente: Valor de posición de 251
+
+          <b>2 Centenas -> 200 Unidades
+          4 Decenas -> 50 Unidades
+          1 Unidad -> 1 Unidad</b>
+
+            El valor de posición es el que tiene cada número de acuerdo a donde se encuentre ubicado dentro de la cantidad.
+            Por ejemplo, ¿cómo colocarías el número 19 dentro de la tabla de posición si cada casilla sólo acepta un número?
+            Es simple, tenemos  que buscar con cuántas unidades se forma una decena. De las 19 unidades que tengo selecciono debo seleccionar 10, ya que esta cantidad representa 1 decena. Las unidades restantes  las coloco en la casilla de las unidades.
+            Entonces   la   representación   del   19   en   la   tabla   de   posiciones   quedaría   así:
+           
+            <b>Centenas -> 0
+              Decenas -> 1
+              Unidades -> 9</b>
             `,
             video: "https://www.youtube.com/embed/EDR7WT099nQ",
           };
         } else if (lesson == "sumas") {
           this.lesson = {
             title: "Sumas",
-            description: `Llamamos suma a la acción de añadir, juntar o agregar elementos, cuando realizamos esta acción estamos uniendo cantidades o conjuntos y para ello siempre debe haber un mínimo de dos elementos.
-            La humanidad ya hacía sumas antes de aprender a escribir o de tener un lenguaje. Se cree que muchas especies de animales también saben sumar cantidades pequeñas.
+            description: `
+            La suma es una operación matemática fundamental que consiste en combinar dos o más valores numéricos para obtener un resultado único, llamado suma o total. Se representa con el símbolo "+"
+            Para sumar dos o más números, sigue estos pasos:
+            <ol class="ml-12">
+              <li> 	Escribe los números uno debajo del otro, alineando las columnas de las cifras correspondientes (unidades, decenas, centenas, etc.).</li>
+              <li> 	Comienza sumando las cifras de la columna de las unidades (la cifra más a la derecha) y anota el resultado debajo.</li>
+              <li> 	Si la suma de las cifras en una columna es 10 o más, lleva una unidad al siguiente dígito a la izquierda antes de sumar la siguiente columna.</li>
+              <li> 	Continúa sumando las cifras de las columnas restantes, llevando cualquier exceso a la columna siguiente según sea necesario.</li>
+              <li> 	Una vez que hayas sumado todas las columnas, tendrás el resultado final de la suma.</li>
+            </ol>
+            <img src="https://i.ibb.co/rHPkvPf/Picture1.png" class="d-flex mx-auto" border="0">
             `,
             video: "https://www.youtube.com/embed/br4Z-HZtIQQ",
           };
         } else if (lesson == "multiplos-numero") {
           this.lesson = {
             title: "Múltiplos de un número",
-            description: `Son los números naturales que se logran obtener al momento de multiplicar un numero por todos los reales (se multiplican los números que están en la tabla hasta el infinito)
-            Para que sirven
-            Por ejemplo: Los múltiples de 2 son 
-            <p style="text-align: center;">
-            (2x1) ,2 (2x2) 4, (2x3) 6.,8,10 ,12,14,16,18,20……
-            </p>
+            description: `
+            Los múltiplos son números que resultan de la multiplicación de un número dado por cualquier número entero. Por ejemplo, los múltiplos de 3 son 6, 9, 12, 15, y así sucesivamente, ya que cada uno es el resultado de multiplicar 3 por un número entero.
+            Existen dos tipos principales de múltiplos:
+
+            <h3 style="color: #3b60e4"> 	Múltiplos comunes</h3>
+            Estos son números que son múltiplos de dos o más números al mismo tiempo. Por ejemplo, los múltiplos comunes de 2 y 3 son 6, 12, 18, etc., ya que son divisibles tanto por 2 como por 3.
+            <h3 style="color: #3b60e4">  	Múltiplos de un número</h3>
+            Son los números que son resultado de multiplicar un número específico por cualquier número entero. Por ejemplo, los múltiplos de 5 son 5, 10, 15, 20, etc.
+
+            <b>Ejemplos de los múltiplos de cada número:</b>
+            
+            <img src="https://i.ibb.co/wLP4CQh/Picture1.png" class="mx-auto d-flex" border="0"></a>
             `,
             video: "https://www.youtube.com/embed/j3IIM6yfMik",
           };
         } else if (lesson == "criterios-divisibilidad") {
           this.lesson = {
             title: "Criterios de divisibilidad",
-            description: `Son aquellas reglas que nos dicen que un número es divisible Por otro sin hacer una división 
-                Divisibilidad por 2: es cuando el número termina en cero o par 
-                Divisibilidad por 3: es cuando las cifras de los números se suman y es múltiplo de 3 
-                Divisibilidad por 5: es cuando el numero termina en 5 o en 0
-                Divisibilidad por 9: es cuando la suma de las cifras es múltiplo de 9
-                Divisibilidad por 10: es cuando termina en 0, si sin dos 0 es divisible por 100 y son tres 0 es divisible por 1000
+            description: `
+            Un número    es divisible por otro    cuándo la división    es exacta, es decir, resulta un número entero.
+            Ejemplos:
+            •	El número  <b>15</b>  es divisible por <b>3</b>   porque la división es exacta:   <b>15/3=5</b>.
+            •	El número  <b>15</b>  también es divisible por  <b>5</b>  porque  <b>15/5=3</b> .
+
+            Los criterios de divisibilidad son reglas que sirven para saber si un número es divisible por otro sin necesidad de realizar la división. Son muy útiles para
+            1. Descomponer números en factores
+            2. Simplificar fracciones
+
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 2</h3>
+            Un número es divisible por <b>2</b> , si termina en cero o cifra par.
+            Ejemplos:
+            •	 130
+            •	 20
+            •	 10
+            •	 5000
+            
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 3</h3>
+            Un número es divisible por  <b>3</b>, si la suma de sus dígitos es múltiplo de  <b>3</b>.
+            Ejemplos:
+            •	 564 -> 5 +  6 + 4 = 15 
+            •	 2040 -> 2 + 0 + 4 + 0 = 6
+
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 4</h3>
+            Un número es divisible por  <b>4</b> , si sus dos últimas cifras son ceros o múltiplo de  <b>4</b>.
+            Ejemplos:
+            •	 <b>136</b> <b>36</b>   es múltiplo de  <b>4</b>
+            •	<b>400</b>  los dos dígitos son ceros
+            •	 <b>1028</b> <b>28</b>  es múltiplo de  <b>4</b>
+ 
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 5</h3>
+            Un número es divisible por  <b>5</b>, si termina en cero o cinco.
+            Ejemplos:
+            •	 45
+            •	 515
+            •	 30
+            •	 230
+ 
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 6</h3>
+            Un número es divisible por <b>6</b>, si es divisible por <b>2</b>  y por  <b>3</b>. 
+            Ejemplos:
+            •	 72
+            -> <b>72</b> es múltiplo de 2
+            -> <b>7 + 2 = 9 </b> es múltiplo de 3
+            •	 324
+            -> <b>324</b> es múltiplo de 2
+            -> <b>3 + 2 + 4 = 9 </b> es múltiplo de 3
+
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 7</h3>
+            Un número es divisible por <b>7</b> cuando la diferencia entre el número sin la cifra de las unidades y el doble de la cifra de las unidades es <b>0</b>  ó un múltiplo de   <b>7</b>.
+            Ejemplos:
+            •	 343
+            -> <b>34-2•3= 28 </b>-> es múltiplo de 7
+            •	 105
+            -> <b>105-5•2= 0 </b>
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 8</h3>
+            Un número es divisible por  <b>8</b> , si sus tres últimas cifras son ceros o múltiplo de   <b>8</b>.
+            Ejemplos:
+            •	 <b>1048</b> <b>48</b>   es múltiplo de  <b>8</b>
+            •	<b>400</b>  los dos dígitos son ceros
+            •	 <b>1512</b> <b>512</b>  es múltiplo de  <b>8</b>
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 9</h3>
+            Un número es divisible por  <b>9</b> , si la suma de sus dígitos es múltiplo de <b>9</b>  .
+            Ejemplos:
+            •	 <b>81</b> <b>8+1=9</b>  es múltiplo de  <b>9</b>
+            •	 <b>3663</b> <b>3+6+6+3=18</b>  es múltiplo de  <b>9</b>
+            •	  <b>1512</b> <b>1+5+1+2=9</b>  es múltiplo de  <b>9</b>
+ 
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 10</h3>
+            Un número es divisible por  <b>10</b>, si la cifra de las unidades es  <b>0</b>.
+            Ejemplos:
+            •	 10000
+            •	 1530
+            •	 150
+
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 11</h3>
+            Un número es divisible por <b>11</b>, , si la diferencia entre la suma de las cifras que ocupan los lugares impares y la de los pares es  <b>0</b>, o un múltiplo de <b>11</b>, .
+            Ejemplos:
+            •	121
+            -> <b>(1+1)-2=0</b>
+            •	 4224
+            <b>(4+2)-(2-4)=0</b>
+
             `,
             video: "https://www.youtube.com/embed/JO_SRpmojdM",
           };
@@ -175,14 +286,24 @@ export default {
               {
                 subtitle: "Nùmeros compuesto",
                 description: `
-                Los números compuestos son aquellos que son divisibles por uno, ellos mismos y también por otros números, es decir, todos los números no primos
-                Ejemplo: 
-                El numero 4, que es divisible por 1, 2 y 4
-
-                EJEMPLO:
-                En los números del 1 al 100 los siguientes números son primos
-                2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 y 97
-                Por lo tanto, el resto de números son compuestos`,
+                Son aquellos números que además de ser divisibles por ellos mismos y la unidad, también son divisibles por otros números.
+                Vamos a ver un ejemplo de número primo y compuesto:
+                El 11 se puede escribir como la multiplicación de 1 x 11, pero no se puede escribir como ninguna otra multiplicación de números naturales. Solo tiene como divisores el 1 y el 11, por lo tanto es un número primo.
+                El 12 se puede escribir como la multiplicación de 1 x 12, y también se puede escribir como la multiplicación de 3 x 4, y de 2 x 6. Como 12 es divisible por más números de 1 y el mismo, 12 es un número compuesto.
+                `,
+              },
+              {
+                subtitle: "Tabla de números primos",
+                description: `
+                Vamos a construir la tabla de números primos hasta el 100.
+                <img src="https://i.ibb.co/HxdtGV1/Picture1.png" class="mx-auto d-flex" border="0">
+                Vamos a empezar con el 2. El 2 es un número primo pero todos lo múltiplos de 2 serán números compuestos, ya que serán divisibles entre 2. Tachamos de nuestra tabla todos los múltiplos de 2.
+                El siguiente número primo es el 3, por lo tanto podemos tachar todos los múltiplos de 3, ya que serán números compuestos.
+                El siguiente número primo es el 5, por lo que tachamos todos los múltiplos de 5.
+                El siguiente número primo es el 7, así que tachamos todos los múltiplos de 7.
+                El siguiente número primo es el 11, por lo que tachamos todos los múltiplos de 11, que son el 22, 33, 44, 55, 66, 77, 88, y el 99. Todos estos ya habían sido tachados con anterioridad, por lo que ya hemos terminado de tachar todos los números compuestos de nuestra tabla.
+                <img src="https://i.ibb.co/VJXx0Jy/Picture1.png" class="mx-auto d-flex" border="0">
+                `,
               },
             ],
           };
@@ -275,8 +396,13 @@ Ejemplo:
               {
                 subtitle: "Fracciones equivalentes",
                 description: `
-                    Dos fracciones son equivalentes cuando estas representan la misma cantidad <br>
-                    <img class="mt-5 mx-auto" width="300px" src="https://i.ibb.co/QM6JYr1/fraccionesequivalentes.jpg" alt="fraccionesequivalentes" border="0">
+                Las fracciones equivalentes son fracciones que representan la misma cantidad o parte de una cantidad, pero están escritas de manera diferente en términos de numerador y denominador. En otras palabras, dos fracciones son equivalentes si, al simplificarlas o expandirlas, se obtiene el mismo valor numérico.
+                Para encontrar fracciones equivalentes, puedes multiplicar o dividir tanto el numerador como el denominador de una fracción por el mismo número entero.
+                Ejemplos de fracciones equivalentes:
+
+                <img class="d-flex mx-auto" src="https://i.ibb.co/QM6JYr1/fraccionesequivalentes.jpg" alt="fraccionesequivalentes" border="0">
+
+
                 `,
               },
               {
@@ -293,21 +419,32 @@ Ejemplo:
         if (lesson == "lectura-escritura-numeros") {
           this.lesson = {
             title: "Lectura y escritura de nùmeros",
-            description: `Lo primero que realizamos es separar las cifras de tres en tres empezando por la derecha.
-            Leemos de izquierda a derecha como si fueran número de tres cifras  y la vamos añadiendo millón mil etc.
+            description: `Para aprender sobre <b>la escritura de números existen algunas reglas base</b> que todo estudiante deberá conocer:
+            <ul class="ml-15">
+              <li>Lo primero es que el número se escribe (en letras)  <b>y se lee de izquierda a derecha. </b></li>
+              <li>Se deberá  <b>tener en cuenta el valor posicional de cada cifra. </b> Así se procede a hacer la escritura o lectura del número</li>
+              <li>Después de la cifra de unidades de millar, <b>se menciona la palabra mil.</b></li>
+              <li>Las cifras siguientes <b>se agrupan de tres en tres, separadas por un punto (números de más de seis cifras).</b> Cada punto se nombra de acuerdo con si son millones, millares, unidades o decimales.</li>
+            </ul>
+            <img class="mx-auto d-flex" src="https://i.ibb.co/ThH9Smz/lecturayescritura1.png" border="0">
+            <img class="mx-auto d-flex" src="https://i.ibb.co/3fnkhC2/lecturayescritura2.png" border="0">
             `,
             video: "https://www.youtube.com/embed/YiEoNX3MIsc",
           };
         } else if (lesson == "operaciones-combinadas") {
           this.lesson = {
             title: "Operaciones combinadas",
-            description: `Son expresiones numéricas que pueden contener suma, resta , multiplicación, división. Ejemplo
-            <p style="text-align: center;">
-                    12/4*5-8+2
-            </p>
-            <p style="text-align: center;">
-                    2-1+5
-            </p>
+            description: `
+            Las <b>operaciones combinadas</b> son aquellas que incluyen más de un tipo de operación. Este tipo de operaciones matemáticas incluyen sumas, restas, multiplicaciones y divisiones
+            <h3 style="color: #3b60e4">Como resolver operaciones combinadas</h3>
+            El orden correcto a la hora de resolver estas oraciones es importante. Es necesario resolver cada parte de la operación en el orden adecuado. Este orden o jerarquía a la hora de resolver operaciones combinadas es el siguiente:
+            <ol class="ml-15">
+              <li>Paréntesis</li>
+              <li>Muliplicaciones y divisiones</li>
+              <li>Sumas y restas</li>
+            </ol>
+            Lo primero que se debe resolver es aquello que esté dentro de un paréntesis. En caso de que la operación combinada no incluya paréntesis, hay que pasar a lo siguiente en la jerarquía. Después de resolver los paréntesis (o saltarlos si no lo lleva), lo siguiente que debemos hacer es resolver las multiplicaciones (conocer las tablas de multiplicar ayuda) y divisiones, en orden de izquierda a derecha.
+            <img src="https://i.ibb.co/c6DfDBV/Picture1.png" class="mx-auto d-flex mt-4" border="0">
             `,
             video: "https://www.youtube.com/embed/w016sdtyv1wc",
           };
@@ -349,7 +486,28 @@ Ejemplo:
         } else if (lesson == "sistema-decimal") {
           this.lesson = {
             title: "Sistema decimal",
-            description: `El sistema decimal es un sistema numérico que se basa en la utilización de diez símbolos distintos para representar cantidades. Estos símbolos son los dígitos del 0 al 9 este Sistema cada posición es una potencia de 10
+            description: `
+            El sistema de numeración decimal es una forma de representación en la que cada dígito tiene un valor numérico y posicional. Se denomina decimal porque tiene 10 símbolos para expresar cualquier cantidad incluido el cero.
+            <b>Ejemplos:</b>
+            Todo número tiene dos valores
+            <ol class="ml-12">
+            <li>Valor por sí mismo: que es siempre el mismo valor esté donde esté colocada cada cifra.</li>
+            <li>Valor de posición: Es el valor que tiene cada cifra de acuerdo al lugar que ocupa en la cantidad.</li>
+            </ol>
+          Observemos la tabla siguiente: Valor de posición de 251
+
+          <b>2 Centenas -> 200 Unidades
+          4 Decenas -> 50 Unidades
+          1 Unidad -> 1 Unidad</b>
+
+            El valor de posición es el que tiene cada número de acuerdo a donde se encuentre ubicado dentro de la cantidad.
+            Por ejemplo, ¿cómo colocarías el número 19 dentro de la tabla de posición si cada casilla sólo acepta un número?
+            Es simple, tenemos  que buscar con cuántas unidades se forma una decena. De las 19 unidades que tengo selecciono debo seleccionar 10, ya que esta cantidad representa 1 decena. Las unidades restantes  las coloco en la casilla de las unidades.
+            Entonces   la   representación   del   19   en   la   tabla   de   posiciones   quedaría   así:
+           
+            <b>Centenas -> 0
+              Decenas -> 1
+              Unidades -> 9</b>
             `,
             video: "https://www.youtube.com/embed/EDR7WT099nQ",
           };
@@ -386,12 +544,90 @@ Ejemplo:
         } else if (lesson == "criterios-divisibilidad") {
           this.lesson = {
             title: "Criterios de divisibilidad",
-            description: `Son reglas matemáticas que nos permiten determinar si un número es divisible por otro sin necesidad de realizar la división completa. Esto es muy útil en matemáticas y pueden facilitar cálculos.
-                Divisibilidad por 2: es cuando el número termina en cero o par 
-                Divisibilidad por 3: es cuando las cifras de los números se suman y es múltiplo de 3 
-                Divisibilidad por 5: es cuando el numero termina en 5 o en 0
-                Divisibilidad por 9: es cuando la suma de las cifras es múltiplo de 9
-                Divisibilidad por 10: es cuando termina en 0, si sin dos 0 es divisible por 100 y son tres 0 es divisible por 1000
+            description: `
+            Un número    es divisible por otro    cuándo la división    es exacta, es decir, resulta un número entero.
+            Ejemplos:
+            •	El número  <b>15</b>  es divisible por <b>3</b>   porque la división es exacta:   <b>15/3=5</b>.
+            •	El número  <b>15</b>  también es divisible por  <b>5</b>  porque  <b>15/5=3</b> .
+
+            Los criterios de divisibilidad son reglas que sirven para saber si un número es divisible por otro sin necesidad de realizar la división. Son muy útiles para
+            1. Descomponer números en factores
+            2. Simplificar fracciones
+
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 2</h3>
+            Un número es divisible por <b>2</b> , si termina en cero o cifra par.
+            Ejemplos:
+            •	 130
+            •	 20
+            •	 10
+            •	 5000
+            
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 3</h3>
+            Un número es divisible por  <b>3</b>, si la suma de sus dígitos es múltiplo de  <b>3</b>.
+            Ejemplos:
+            •	 564 -> 5 +  6 + 4 = 15 
+            •	 2040 -> 2 + 0 + 4 + 0 = 6
+
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 4</h3>
+            Un número es divisible por  <b>4</b> , si sus dos últimas cifras son ceros o múltiplo de  <b>4</b>.
+            Ejemplos:
+            •	 <b>136</b> <b>36</b>   es múltiplo de  <b>4</b>
+            •	<b>400</b>  los dos dígitos son ceros
+            •	 <b>1028</b> <b>28</b>  es múltiplo de  <b>4</b>
+ 
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 5</h3>
+            Un número es divisible por  <b>5</b>, si termina en cero o cinco.
+            Ejemplos:
+            •	 45
+            •	 515
+            •	 30
+            •	 230
+ 
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 6</h3>
+            Un número es divisible por <b>6</b>, si es divisible por <b>2</b>  y por  <b>3</b>. 
+            Ejemplos:
+            •	 72
+            -> <b>72</b> es múltiplo de 2
+            -> <b>7 + 2 = 9 </b> es múltiplo de 3
+            •	 324
+            -> <b>324</b> es múltiplo de 2
+            -> <b>3 + 2 + 4 = 9 </b> es múltiplo de 3
+
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 7</h3>
+            Un número es divisible por <b>7</b> cuando la diferencia entre el número sin la cifra de las unidades y el doble de la cifra de las unidades es <b>0</b>  ó un múltiplo de   <b>7</b>.
+            Ejemplos:
+            •	 343
+            -> <b>34-2•3= 28 </b>-> es múltiplo de 7
+            •	 105
+            -> <b>105-5•2= 0 </b>
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 8</h3>
+            Un número es divisible por  <b>8</b> , si sus tres últimas cifras son ceros o múltiplo de   <b>8</b>.
+            Ejemplos:
+            •	 <b>1048</b> <b>48</b>   es múltiplo de  <b>8</b>
+            •	<b>400</b>  los dos dígitos son ceros
+            •	 <b>1512</b> <b>512</b>  es múltiplo de  <b>8</b>
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 9</h3>
+            Un número es divisible por  <b>9</b> , si la suma de sus dígitos es múltiplo de <b>9</b>  .
+            Ejemplos:
+            •	 <b>81</b> <b>8+1=9</b>  es múltiplo de  <b>9</b>
+            •	 <b>3663</b> <b>3+6+6+3=18</b>  es múltiplo de  <b>9</b>
+            •	  <b>1512</b> <b>1+5+1+2=9</b>  es múltiplo de  <b>9</b>
+ 
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 10</h3>
+            Un número es divisible por  <b>10</b>, si la cifra de las unidades es  <b>0</b>.
+            Ejemplos:
+            •	 10000
+            •	 1530
+            •	 150
+
+            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 11</h3>
+            Un número es divisible por <b>11</b>, , si la diferencia entre la suma de las cifras que ocupan los lugares impares y la de los pares es  <b>0</b>, o un múltiplo de <b>11</b>, .
+            Ejemplos:
+            •	121
+            -> <b>(1+1)-2=0</b>
+            •	 4224
+            <b>(4+2)-(2-4)=0</b>
+
             `,
             video: "https://www.youtube.com/embed/JO_SRpmojdM",
           };
@@ -440,13 +676,47 @@ Para comparar fracciones, se deben seguir algunos pasos:
         } else if (lesson == "maximo-comun-divisor") {
           this.lesson = {
             title: "El máximo común divisor ",
-            description: `El máximo común divisor (MCD), también conocido como máximo común divisor (MCD) o mayor divisor común (MDC), de dos o más números enteros es el número más grande que divide exactamente a todos ellos. En otras palabras, es el mayor número que es un divisor común de esos números. `,
+            description: `
+            En matemáticas, se denomina máximo común divisor o MCD al mayor número que divide exactamente a dos o más números a la vez. Como hablamos del mayor número solo tendremos en cuenta los divisores positivos.
+
+            También podemos decir que el máximo común divisor de dos números «A» y «B», es el número mayor que los divide a los dos, tanto al número A como al número B.
+
+            Por ejemplo diremos que el máximo común divisor de 18 y 24 es 6, porque 6 es el mayor de los divisores comunes de 18 y 24 y lo escribimos MCD (18,24) = 6
+
+            Se tienen en cuenta los números en los que las divisiones den de resto cero. Puedes repasar las divisiones por una cifra si lo prefieres para ayudarte a recordar las partes que componen una división.
+            
+            <h3 style="color: #3b60e4">Método 1 para calcular el MCD</h3>
+            Es el que venimos utilizando en los ejemplos de más arriba. Para ello es importante fijarnos muy bien lo que significa máximo común divisor.
+
+            Escribimos todos los divisores de cada número, y de éstos señalamos los divisores comunes.
+            El divisor mayor será el MCD de esos números.
+            El inconveniente de este método es que un número grande puede tener muchos divisores y escribirlos todos puede ser muy pesado. La ventaja que tiene es que si lo tienes en cuenta, a veces no tendrás que calcular nada, fíjate, si te piden el máximo común divisor de tres números y resulta que uno divide a los demás, ya tienes el máximo común divisor. Por ejemplo el máximo común divisor de 36, 12, y 84. Como 12 divide a los tres, no podrá haber ningún divisor común mayor.
+
+            <h3 style="color: #3b60e4">Método 2 para calcular el MCD</h3>
+            Descomposición de factores o descomposición en números primos.
+
+            Descomponemos cada número en factores primos.
+            Después, señalamos los factores comunes.
+            A continuación, en cada uno de los comunes, escogemos el factor con menor exponente.
+            Y por ultimo, multiplicamos los factores elegidos.
+            Vamos a ver un ejemplo:
+
+            <b>Calculamos el M.C.D de 8 y 12.</b>
+            <img src="https://i.ibb.co/8BGQbZF/mcd-de-8-y-12.jpg" class="mx-auto d-flex" >
+
+            Como ves, hemos señalado los factores comunes, en este caso es el 2, pero debes tener cuidado, tienes que fijarte siempre en el de menor exponente (2²), que es igual a 4. Además, si quieres puedes recordar cómo se hace la descomposición factorial y las potencias.
+            
+            `,
             video: "https://www.youtube.com/embed/WD4rGWCRBYY",
           };
         } else if (lesson == "numeros-compuestos") {
           this.lesson = {
             title: "Nùmeros compuestos ",
-            description: `Un número compuesto es un número entero mayor que 1 que tiene más de dos divisores positivos este si tiene más divisores que los número primos que solo tiene dos .`,
+            description: `Son aquellos números que además de ser divisibles por ellos mismos y la unidad, también son divisibles por otros números.
+Vamos a ver un ejemplo de número primo y compuesto:
+El 11 se puede escribir como la multiplicación de 1 x 11, pero no se puede escribir como ninguna otra multiplicación de números naturales. Solo tiene como divisores el 1 y el 11, por lo tanto es un número primo.
+El 12 se puede escribir como la multiplicación de 1 x 12, y también se puede escribir como la multiplicación de 3 x 4, y de 2 x 6. Como 12 es divisible por más números de 1 y el mismo, 12 es un número compuesto.
+`,
             video: "https://www.youtube.com/embed/SJb8_Lad_PU",
           };
         } else if (lesson == "numeros-primos") {
@@ -458,7 +728,48 @@ Para comparar fracciones, se deben seguir algunos pasos:
         } else if (lesson == "minimo-comun-multiplo") {
           this.lesson = {
             title: "El mínimo común múltiplo ",
-            description: `El mínimo común múltiplo (MCM) es un concepto matemático que se aplica principalmente en aritmética y álgebra. El MCM de dos o más números enteros positivos es el número más pequeño que es múltiplo de todos ellos. Para encontrar el MCM de dos números, hay varias formas de hacerlo. Una de las más comunes es mediante la descomposición en factores primos`,
+            description: `
+            El <b>mínimo común múltiplo</b> de dos números a y b es el número más pequeño que es múltiplo de a y múltiplo de b.
+            Para denotar el mínimo común múltiplo de a y b escribiremos <b>m.c.m.(a, b) ó mcm(a, b).</b>
+            <b>Ejemplo:</b>
+            <img src="https://i.ibb.co/x6L9SZh/Picture1.png" class="mx-auto d-flex" border="0"></a>
+            Vamos a calcular el mínimo común múltiplo de 4 y 6. Para ello, escribimos los primeros múltiplos de 4 y de 6:
+            Recordad que los múltiplos se obtienen multiplicando.
+            Entre los 6 primeros múltiplos de 4 y de 6, los números 12 y 24 son múltiplos de ambos <b>(son múltiplos comunes).</b>
+            Tenemos que quedarnos con el <b>mínimo.</b>
+            Por tanto, <b>el mínimo común múltiplo </b>de 4 y 6 es 12:
+            
+            <h3 style="color: #3b60e4">Descomposición en números primos</h3>
+            Recordamos cómo<b> descomponer números</b> para escribirlos como un <b>producto de números primos</b>, lo cual facilitará el cálculo del mínimo común múltiplo.
+            Podemos escribir cualquier número como producto de potencias de números primos. Por ejemplo,
+           <img src="https://i.ibb.co/fpmjcNv/Picture1.png" class="mt-2 mx-auto d-flex" border="0"></a>
+           Para descomponer un número dividimos el número sucesivamente entre números primos hasta llegar a 1.
+          La descomposición es el producto de las potencias de los números primos, siendo sus exponentes el número de veces que hemos dividido por dicho primo.
+          <h3 style="color: #3b60e4">Obtención del mcm</h3>
+          <b>Regla para calcular el mcm:</b>
+          «Bases comunes y no comunes al mayor exponente»
+          <b>Método:</b>
+          <ol class="ml-15">
+              <li>Descomponemos los números en números primos (producto de potencias de primos).</li>  
+              <li>El mínimo común múltiplo es el producto de todas las potencias que aparecen en las descomposiciones,</li>  
+              <li>pero si alguna de las bases aparece en ambas descomposiciones, escogemos la de mayor exponente.</li>  
+            </ol>
+          <b>Ejemplo:</b>
+          Calculamos el mínimo común múltiplo de 180 y 324.
+          Sus descomposiciones son:
+          <img src="https://i.ibb.co/n8xYRFW/Picture1.png" class="mx-auto d-flex" border="0">
+          El mínimo común múltiplo tendrá las potencias de base 5, de base 3 y de base 2.
+          <ul class="ml-15">
+         	<li>La potencia de base 2 tiene el exponente 2 en las dos descomposiciones, así que escribiremos: 2<sup>2</sup></li>
+          <li>la potencia de base 3 tiene los exponentes 2 y 4. Nos quedamos con el mayor: 3<sup>4</sup></li>
+           <li>la potencia de base 5 sólo aparece en una de las descomposiciones, pero este hecho es irrelevante. </li>
+         </ul>
+         Por tanto, el <strong>mínimo común múltiplo</strong> de 180 y 324 es
+         <img src="https://i.ibb.co/vL8RQFz/mcmT-7.png" class="d-flex mx-auto" border="0">
+         El procedimiento anterior puede resumirse como comunes y no comunes al mayor exponente, lo que significa que el mcm es el producto de todas las potencias que aparecen en una o en ambas descomposiciones («comunes y no comunes») pero cuyo exponente sea el mayor.
+
+         También, podemos calcular el mínimo común múltiplo de más de dos números. Para ello, usamos la misma regla: comunes y no comunes al mayor exponente.
+            `,
             video: "https://www.youtube.com/embed/txLlA_fyL5g",
           };
         } else if (lesson == "multiplos") {
@@ -592,10 +903,47 @@ Ejemplo:
         } else if (lesson == "minimo-comun-multiplo") {
           this.lesson = {
             title: "El mínimo común múltiplo ",
-            description: `El mínimo común múltiplo es el número más pequeño que es múltiplo de dos o más números al mismo tiempo. Por ejemplo, si buscamos el mínimo común múltiplo de 3 y 4, sería 12, ya que es el número más pequeño que es divisible por ambos números.
-            Ejemplo:
-- El mínimo común múltiplo de 4 y 6 es 12, ya que es divisible por ambos números
+            description: `
+            El <b>mínimo común múltiplo</b> de dos números a y b es el número más pequeño que es múltiplo de a y múltiplo de b.
+            Para denotar el mínimo común múltiplo de a y b escribiremos <b>m.c.m.(a, b) ó mcm(a, b).</b>
+            <b>Ejemplo:</b>
+            <img src="https://i.ibb.co/x6L9SZh/Picture1.png" class="mx-auto d-flex" border="0"></a>
+            Vamos a calcular el mínimo común múltiplo de 4 y 6. Para ello, escribimos los primeros múltiplos de 4 y de 6:
+            Recordad que los múltiplos se obtienen multiplicando.
+            Entre los 6 primeros múltiplos de 4 y de 6, los números 12 y 24 son múltiplos de ambos <b>(son múltiplos comunes).</b>
+            Tenemos que quedarnos con el <b>mínimo.</b>
+            Por tanto, <b>el mínimo común múltiplo </b>de 4 y 6 es 12:
+            
+            <h3 style="color: #3b60e4">Descomposición en números primos</h3>
+            Recordamos cómo<b> descomponer números</b> para escribirlos como un <b>producto de números primos</b>, lo cual facilitará el cálculo del mínimo común múltiplo.
+            Podemos escribir cualquier número como producto de potencias de números primos. Por ejemplo,
+           <img src="https://i.ibb.co/fpmjcNv/Picture1.png" class="mt-2 mx-auto d-flex" border="0"></a>
+           Para descomponer un número dividimos el número sucesivamente entre números primos hasta llegar a 1.
+          La descomposición es el producto de las potencias de los números primos, siendo sus exponentes el número de veces que hemos dividido por dicho primo.
+          <h3 style="color: #3b60e4">Obtención del mcm</h3>
+          <b>Regla para calcular el mcm:</b>
+          «Bases comunes y no comunes al mayor exponente»
+          <b>Método:</b>
+          <ol class="ml-15">
+              <li>Descomponemos los números en números primos (producto de potencias de primos).</li>  
+              <li>El mínimo común múltiplo es el producto de todas las potencias que aparecen en las descomposiciones,</li>  
+              <li>pero si alguna de las bases aparece en ambas descomposiciones, escogemos la de mayor exponente.</li>  
+            </ol>
+          <b>Ejemplo:</b>
+          Calculamos el mínimo común múltiplo de 180 y 324.
+          Sus descomposiciones son:
+          <img src="https://i.ibb.co/n8xYRFW/Picture1.png" class="mx-auto d-flex" border="0">
+          El mínimo común múltiplo tendrá las potencias de base 5, de base 3 y de base 2.
+          <ul class="ml-15">
+         	<li>La potencia de base 2 tiene el exponente 2 en las dos descomposiciones, así que escribiremos: 2<sup>2</sup></li>
+          <li>la potencia de base 3 tiene los exponentes 2 y 4. Nos quedamos con el mayor: 3<sup>4</sup></li>
+           <li>la potencia de base 5 sólo aparece en una de las descomposiciones, pero este hecho es irrelevante. </li>
+         </ul>
+         Por tanto, el <strong>mínimo común múltiplo</strong> de 180 y 324 es
+         <img src="https://i.ibb.co/vL8RQFz/mcmT-7.png" class="d-flex mx-auto" border="0">
+         El procedimiento anterior puede resumirse como comunes y no comunes al mayor exponente, lo que significa que el mcm es el producto de todas las potencias que aparecen en una o en ambas descomposiciones («comunes y no comunes») pero cuyo exponente sea el mayor.
 
+         También, podemos calcular el mínimo común múltiplo de más de dos números. Para ello, usamos la misma regla: comunes y no comunes al mayor exponente.
             `,
             video: "https://www.youtube.com/embed/txLlA_fyL5g",
           };
@@ -614,14 +962,24 @@ Ejemplo:
               {
                 subtitle: "Nùmeros compuesto",
                 description: `
-                Los números compuestos son aquellos que son divisibles por uno, ellos mismos y también por otros números, es decir, todos los números no primos
-                Ejemplo: 
-                El numero 4, que es divisible por 1, 2 y 4
-
-                EJEMPLO:
-                En los números del 1 al 100 los siguientes números son primos
-                2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89 y 97
-                Por lo tanto, el resto de números son compuestos`,
+                Son aquellos números que además de ser divisibles por ellos mismos y la unidad, también son divisibles por otros números.
+                Vamos a ver un ejemplo de número primo y compuesto:
+                El 11 se puede escribir como la multiplicación de 1 x 11, pero no se puede escribir como ninguna otra multiplicación de números naturales. Solo tiene como divisores el 1 y el 11, por lo tanto es un número primo.
+                El 12 se puede escribir como la multiplicación de 1 x 12, y también se puede escribir como la multiplicación de 3 x 4, y de 2 x 6. Como 12 es divisible por más números de 1 y el mismo, 12 es un número compuesto.
+                `,
+              },
+              {
+                subtitle: "Tabla de números primos",
+                description: `
+                Vamos a construir la tabla de números primos hasta el 100.
+                <img src="https://i.ibb.co/HxdtGV1/Picture1.png" class="mx-auto d-flex" border="0">
+                Vamos a empezar con el 2. El 2 es un número primo pero todos lo múltiplos de 2 serán números compuestos, ya que serán divisibles entre 2. Tachamos de nuestra tabla todos los múltiplos de 2.
+                El siguiente número primo es el 3, por lo tanto podemos tachar todos los múltiplos de 3, ya que serán números compuestos.
+                El siguiente número primo es el 5, por lo que tachamos todos los múltiplos de 5.
+                El siguiente número primo es el 7, así que tachamos todos los múltiplos de 7.
+                El siguiente número primo es el 11, por lo que tachamos todos los múltiplos de 11, que son el 22, 33, 44, 55, 66, 77, 88, y el 99. Todos estos ya habían sido tachados con anterioridad, por lo que ya hemos terminado de tachar todos los números compuestos de nuestra tabla.
+                <img src="https://i.ibb.co/VJXx0Jy/Picture1.png" class="mx-auto d-flex" border="0">
+                `,
               },
             ],
           };
