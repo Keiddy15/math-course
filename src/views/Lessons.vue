@@ -1,9 +1,6 @@
 <template>
   <v-main>
     <v-container>
-      <v-card-title class="my-5 px-0" style="font-weight: 900; font-size: 2rem">
-        PRIMER PERÍODO</v-card-title
-      >
       <v-row>
         <v-col
           v-for="lesson in lessons[0]"
@@ -37,9 +34,6 @@
           </v-card>
         </v-col>
       </v-row>
-      <v-card-title class="my-5 px-0" style="font-weight: 900; font-size: 2rem">
-        SEGUNDO PERÍODO</v-card-title
-      >
       <v-row>
         <v-col
           v-for="lesson in lessons[1]"
@@ -73,9 +67,6 @@
           </v-card>
         </v-col>
       </v-row>
-      <v-card-title class="my-5 px-0" style="font-weight: 900; font-size: 2rem">
-        TERCER PERÍODO</v-card-title
-      >
       <v-row>
         <v-col
           v-for="lesson in lessons[2]"
