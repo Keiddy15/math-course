@@ -13,10 +13,11 @@
     </h1>
     <div style="text-align: center">
       <iframe
-        src="https://es.educaplay.com/recursos-educativos/15637318-fracciones_equivalentes_x2.html"
+        allowfullscreen
+        width="80%"
+        height="690"
         frameborder="0"
-        width="100%"
-        height="500px"
+        src="https://es.educaplay.com/juego/15637318-fracciones_equivalentes_x2.html"
       ></iframe>
     </div>
   </main>

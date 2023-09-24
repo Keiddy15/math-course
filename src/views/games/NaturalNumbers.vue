@@ -13,10 +13,11 @@
     </h1>
     <div style="text-align: center">
       <iframe
-        src="https://es.educaplay.com/recursos-educativos/15655750-numeros_naturales.html"
+        allowfullscreen
+        width="80%"
+        height="690"
         frameborder="0"
-        width="100%"
-        height="500px"
+        src="https://es.educaplay.com/juego/15655750-numeros_naturales.html"
       ></iframe>
     </div>
   </main>

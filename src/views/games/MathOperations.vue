@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main style="height: 100%">
     <h1
       style="
         text-align: center;
@@ -11,12 +11,13 @@
     >
       OPERACIONES MATEMÁTICAS
     </h1>
-    <div style="text-align: center">
+    <div style="text-align: center; height: 100%" class="containeriframe">
       <iframe
-        src="https://es.educaplay.com/recursos-educativos/15644834-operaciones_matematicas_y_sus_resultados.html"
+        allowfullscreen
+        width="80%"
+        height="690"
         frameborder="0"
-        width="100%"
-        height="500px"
+        src="https://es.educaplay.com/juego/15644834-operaciones_matematicas_y_sus_resultados.html"
       ></iframe>
     </div>
   </main>
@@ -33,4 +34,13 @@ export default {
 </script>
   
   <style>
+.containeriframe {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+iframe {
+  border: none; /* Para eliminar cualquier borde del iframe */
+}
 </style>

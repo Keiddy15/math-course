@@ -11,15 +11,15 @@
     >
       MATEMÁTICA BÁSICA
     </h1>
-    <div style="text-align: center;">
-        <iframe
-      src="https://es.educaplay.com/recursos-educativos/15672933-conceptos_matematicos_basicos.html"
-      frameborder="0"
-      width="100%"
-      height="500px"
-    ></iframe>
+    <div style="text-align: center">
+      <iframe
+        allowfullscreen
+        width="80%"
+        height="690"
+        frameborder="0"
+        src="https://es.educaplay.com/juego/15672933-conceptos_matematicos_basicos.html"
+      ></iframe>
     </div>
-
   </main>
 </template>
   

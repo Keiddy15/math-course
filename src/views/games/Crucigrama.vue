@@ -13,10 +13,11 @@
     </h1>
     <div style="text-align: center">
       <iframe
-        src="https://es.educaplay.com/recursos-educativos/15672779-crucigrama_de_diferentes_definiciones.html"
+        allowfullscreen
+        width="80%"
+        height="690"
         frameborder="0"
-        width="100%"
-        height="500px"
+        src="https://es.educaplay.com/juego/15672779-crucigrama_de_diferentes_definiciones.html"
       ></iframe>
     </div>
   </main>
