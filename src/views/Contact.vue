@@ -55,7 +55,7 @@ export default {
         id: 2,
         name: "Santiago Andrés Olmos Gómez",
         email: "santiagoolmos236@gmail.com",
-        avatar: "https://avatars0.githubusercontent.com/u/9064066?v=4&s=460",
+        avatar: "https://i.ibb.co/Gx93Vzh/Whats-App-Image-2023-09-25-at-8-17-01-AM.jpg",
       },
       {
         id: 3,
@@ -73,7 +73,7 @@ export default {
         id: 5,
         name: "Deriam Smith Jiménez Padilla",
         email: "deriam15@gmail.com",
-        avatar: "https://avatars0.githubusercontent.com/u/9064066?v=4&s=460",
+        avatar: "https://i.ibb.co/WPVp9pJ/Whats-App-Image-2023-09-25-at-8-23-59-AM.jpg",
       },
       {
         id: 6,
@@ -92,4 +92,5 @@ export default {
   margin-top: -5px;
   box-shadow: 0 11px 18px 0 rgba(0, 0, 0, 0.22);
 }
+
 </style>
