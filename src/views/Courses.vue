@@ -52,4 +52,17 @@ export default {
     flex-direction: column !important;
   }
 }
+h1 {
+  font-weight: 900;
+  font-size: 7rem!important;
+  text-align: center;
+  background: linear-gradient(
+    to left,
+    #ff9900,
+    #3399ff,
+    #33cc33
+  );
+  color: transparent !important;
+  -webkit-background-clip: text;
+}
 </style>
