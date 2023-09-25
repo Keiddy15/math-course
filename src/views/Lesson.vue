@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-main>
     <v-container fluid>
       <v-row
         align="center"
@@ -48,7 +48,7 @@
         </v-col>
       </v-row>
     </v-container>
-  </v-app>
+  </v-main>
 </template>
   
   <script>
@@ -1059,6 +1059,10 @@ Los polinomios nos sirven para simplificar un polinomio aritmético tiene como f
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+main {
+  background-image: url("../assets/img/fondo4.jpg");
+  background-size: cover;
 }
 </style>
   
