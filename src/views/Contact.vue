@@ -15,8 +15,8 @@
             style="max-width: 400px; border-radius: 2rem"
             elevation="20"
           >
-            <v-avatar size="200" class="mx-auto">
-              <img :src="person.avatar" alt="Avatar" />
+            <v-avatar size="200" class="mx-auto" image>
+              <img :src="person.avatar" alt="Avatar" style="width: 100%;"/>
             </v-avatar>
             <v-card-title style="text-align: center">{{
               person.name
@@ -49,7 +49,7 @@ export default {
         name: "Rubén segundo García López",
         email: "rubengarcialopez123@gmail.com",
         phone: "3007069477",
-        avatar: "https://cdn.vuetifyjs.com/images/john.jpg",
+        avatar: "https://i.ibb.co/p0hvfxx/ruben.jpg",
       },
       {
         id: 2,
@@ -61,13 +61,13 @@ export default {
         id: 3,
         name: "Esteban Andrés Ramírez Yepes",
         email: "estebanandresramirezyepes@gmail.com",
-        avatar: "https://cdn.vuetifyjs.com/images/profiles/marcus.jpg",
+        avatar: "https://i.ibb.co/dmKP4GK/esteban.jpg",
       },
       {
         id: 4,
         name: "Junior Fernando Romero matiu",
         email: "juniormatiu1215@gmail.com",
-        avatar: "https://cdn.vuetifyjs.com/images/john.jpg",
+        avatar: "https://i.ibb.co/NsbQGdy/junior.jpg",
       },
       {
         id: 5,
@@ -77,10 +77,10 @@ export default {
       },
       {
         id: 6,
-        name: "julianosorioarrieta@gmail.com",
-        email: "deriam15@gmail.com",
-        avatar: "https://cdn.vuetifyjs.com/images/profiles/marcus.jpg",
-      },
+        name: "Julián Osorio Arrieta",
+        email: "julianosorioarrieta@gmail.com",
+        avatar: "https://i.ibb.co/k2dvhFs/julian.jpg",
+      }
     ],
   }),
 };
