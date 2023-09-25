@@ -1,5 +1,5 @@
 <template>
-  <v-main class="mt-15 pa-0" style="height: 100%">
+  <v-main class="pt-15 pa-0" style="height: 100%">
     <v-container class="text-center">
       <v-row justify="center">
         <v-col cols="6" class="content">
@@ -104,19 +104,19 @@ export default {
 }
 @keyframes gradientAnimation {
   0% {
-    background: linear-gradient(45deg, #ff5733, #fddb92);
+    background: linear-gradient(45deg, #33cc33, #fddb92);
     -webkit-background-clip: text;
     color: transparent;
     transform: translateY(0);
   }
   50% {
-    background: linear-gradient(45deg, #fddb92, #ff5733);
+    background: linear-gradient(45deg, #3399ff, #ff5733);
     -webkit-background-clip: text;
     color: transparent;
     transform: translateY(-5px);
   }
   100% {
-    background: linear-gradient(45deg, #ff5733, #fddb92);
+    background: linear-gradient(45deg, #3399ff, #fddb92);
     -webkit-background-clip: text;
     color: transparent;
     transform: translateY(0);
@@ -128,9 +128,11 @@ export default {
   font-weight: bold;
   background: linear-gradient(
     to left,
-    #ff9900,
+    #33cc33,
     #3399ff,
-    #33cc33
+    #56c7a7,
+    
+    
   ); /* Degradado de colores (naranja, azul y verde) */
   -webkit-background-clip: text;
   color: transparent;
@@ -220,6 +222,11 @@ a {
   font-weight: 900;
   font-size: 1.5rem;
   margin-bottom: 2rem;
+}
+main {
+  background-image: url("../assets/img/back3.jpg");
+  background-size: cover;
+  height: 100%;
 }
 </style>
   
