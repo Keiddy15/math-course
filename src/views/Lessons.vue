@@ -571,7 +571,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @import "vuetify/dist/vuetify.min.css";
 
 .lesson-card {
@@ -610,5 +610,9 @@ export default {
   color: #ff564f !important;
   position: relative;
   font-weight: 700;
+}
+main {
+  background-image: url("../assets/img/fondo1.jpg");
+  background-size: cover;
 }
 </style>
