@@ -7,6 +7,7 @@
     </template>
     <template v-slot:append>
       <v-btn href="/">HOME</v-btn>
+      <v-btn href="/courses">Lecciones</v-btn>
       <v-btn href="/games">Juegos</v-btn>
       <v-btn href="/contact">Contacto</v-btn>
     </template>
