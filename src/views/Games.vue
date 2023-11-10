@@ -100,6 +100,56 @@ export default {
           img: require("../assets/img/formula.png"),
           goTo: () => {
             this.$router.push("/game/divisionmultiplicacion")
+          },
+          
+        },
+        {
+          name: "Crucigrama Matemático",
+          img: require("../assets/img/math-crucigram.png"),
+          goTo: () => {
+            this.$router.push("/game/mathcrucigram")
+          }
+        },
+        {
+          name: "Quiz de Fracciones",
+          img: require("../assets/img/quiz-fracciones.png"),
+          goTo: () => {
+            this.$router.push("/game/quizfracciones")
+          }
+        },
+        {
+          name: "Multiplicación de 2 y 3 cifras",
+          img: require("../assets/img/multi2y3.png"),
+          goTo: () => {
+            this.$router.push("/game/multiplication2_3")
+          }
+        },
+        {
+          name: "Divisiones Exactas",
+          img: require("../assets/img/divisionesexactas.png"),
+          goTo: () => {
+            this.$router.push("/game/divisionesexactas")
+          }
+        },
+        {
+          name: "Términos Matemáticos",
+          img: require("../assets/img/concepto.png"),
+          goTo: () => {
+            this.$router.push("/game/terminosmatematicos")
+          }
+        },
+        {
+          name: "Matemáticas",
+          img: require("../assets/img/math.png"),
+          goTo: () => {
+            this.$router.push("/game/math")
+          }
+        },
+        {
+          name: "Múltiplos y Divisores",
+          img: require("../assets/img/learning.png"),
+          goTo: () => {
+            this.$router.push("/game/multiplosdivisores")
           }
         },
       ],

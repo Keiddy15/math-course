@@ -17,7 +17,15 @@ import Crucigrama from "@/views/games/Crucigrama";
 import NaturalNumbers from "@/views/games/NaturalNumbers";
 import MathOperations from "@/views/games/MathOperations";
 import Fracciones from "@/views/games/Fracciones";
-import DivisionMultiplicacion from "@/views/games/DivisionMultiplicacion"
+import DivisionMultiplicacion from "@/views/games/DivisionMultiplicacion";
+import MathCrucigram from "@/views/games/MathCrucigram";
+import QuizFracciones from "@/views/games/QuizFracciones";
+import Multiplication2_3 from "@/views/games/Multiplication2_3";
+import DivisionesExactas from "@/views/games/DivisionesExactas";
+import TerminosMatematicos from "@/views/games/TerminosMatematicos";
+import Math from "@/views/games/Math";
+import MultiplosYDivisores from "@/views/games/MultiplosYDivisores";
+
 
 const routes = [
   {
@@ -113,6 +121,41 @@ const routes = [
         name: "DivisionMultiplicacion",
         path: "/game/divisionmultiplicacion",
         component: DivisionMultiplicacion,
+      },
+      {
+        name: "MathCrucigram",
+        path: "/game/mathcrucigram",
+        component: MathCrucigram,
+      },
+      {
+        name: "QuizFracciones",
+        path: "/game/quizfracciones",
+        component: QuizFracciones,
+      },
+      {
+        name: "Multiplication2_3",
+        path: "/game/multiplication2_3",
+        component: Multiplication2_3,
+      },
+      {
+        name: "DivisionesExactas",
+        path: "/game/divisionesexactas",
+        component: DivisionesExactas,
+      },
+      {
+        name: "TerminosMatematicos",
+        path: "/game/terminosmatematicos",
+        component: TerminosMatematicos,
+      },
+      {
+        name: "Math",
+        path: "/game/math",
+        component: Math,
+      },
+      {
+        name: "MultiplosYDivisores",
+        path: "/game/multiplosdivisores",
+        component: MultiplosYDivisores,
       },
     ],
   },
