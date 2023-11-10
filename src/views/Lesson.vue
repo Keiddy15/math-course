@@ -18,7 +18,7 @@
               lleno de descubrimientos y aprendizaje.
             </p>
             <v-divider class="my-7" style="border: 5px solid"></v-divider>
-            <h2 class="mt-5 mb-2" style="color: #3b60e4; font-size: 2rem">
+            <h2 class="mt-5 mb-2" style="color: red; font-size: 2rem">
               {{ lesson.title }}
             </h2>
             <iframe
@@ -38,7 +38,7 @@
               :key="lesson.title"
               class="mt-5"
             >
-              <h2 style="text-align: justify">{{ lesson.subtitle }}</h2>
+              <h2 style="text-align: justify; color: red">{{ lesson.subtitle }}</h2>
               <p
                 style="text-align: justify; font-size: 1.5rem"
                 v-html="lesson.description"
@@ -170,9 +170,9 @@ export default {
             Los múltiplos son números que resultan de la multiplicación de un número dado por cualquier número entero. Por ejemplo, los múltiplos de 3 son 6, 9, 12, 15, y así sucesivamente, ya que cada uno es el resultado de multiplicar 3 por un número entero.
             Existen dos tipos principales de múltiplos:
 
-            <h3 style="color: #3b60e4"> 	Múltiplos comunes</h3>
+            <h3 style="color: red"> 	Múltiplos comunes</h3>
             Estos son números que son múltiplos de dos o más números al mismo tiempo. Por ejemplo, los múltiplos comunes de 2 y 3 son 6, 12, 18, etc., ya que son divisibles tanto por 2 como por 3.
-            <h3 style="color: #3b60e4">  	Múltiplos de un número</h3>
+            <h3 style="color: red">  	Múltiplos de un número</h3>
             Son los números que son resultado de multiplicar un número específico por cualquier número entero. Por ejemplo, los múltiplos de 5 son 5, 10, 15, 20, etc.
 
             <b>Ejemplos de los múltiplos de cada número:</b>
@@ -194,7 +194,7 @@ export default {
             1. Descomponer números en factores
             2. Simplificar fracciones
 
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 2</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 2</h3>
             Un número es divisible por <b>2</b> , si termina en cero o cifra par.
             Ejemplos:
             •	 130
@@ -202,20 +202,20 @@ export default {
             •	 10
             •	 5000
             
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 3</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 3</h3>
             Un número es divisible por  <b>3</b>, si la suma de sus dígitos es múltiplo de  <b>3</b>.
             Ejemplos:
             •	 564 -> 5 +  6 + 4 = 15 
             •	 2040 -> 2 + 0 + 4 + 0 = 6
 
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 4</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 4</h3>
             Un número es divisible por  <b>4</b> , si sus dos últimas cifras son ceros o múltiplo de  <b>4</b>.
             Ejemplos:
             •	 <b>136</b> <b>36</b>   es múltiplo de  <b>4</b>
             •	<b>400</b>  los dos dígitos son ceros
             •	 <b>1028</b> <b>28</b>  es múltiplo de  <b>4</b>
  
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 5</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 5</h3>
             Un número es divisible por  <b>5</b>, si termina en cero o cinco.
             Ejemplos:
             •	 45
@@ -223,7 +223,7 @@ export default {
             •	 30
             •	 230
  
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 6</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 6</h3>
             Un número es divisible por <b>6</b>, si es divisible por <b>2</b>  y por  <b>3</b>. 
             Ejemplos:
             •	 72
@@ -233,34 +233,34 @@ export default {
             -> <b>324</b> es múltiplo de 2
             -> <b>3 + 2 + 4 = 9 </b> es múltiplo de 3
 
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 7</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 7</h3>
             Un número es divisible por <b>7</b> cuando la diferencia entre el número sin la cifra de las unidades y el doble de la cifra de las unidades es <b>0</b>  ó un múltiplo de   <b>7</b>.
             Ejemplos:
             •	 343
             -> <b>34-2•3= 28 </b>-> es múltiplo de 7
             •	 105
             -> <b>105-5•2= 0 </b>
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 8</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 8</h3>
             Un número es divisible por  <b>8</b> , si sus tres últimas cifras son ceros o múltiplo de   <b>8</b>.
             Ejemplos:
             •	 <b>1048</b> <b>48</b>   es múltiplo de  <b>8</b>
             •	<b>400</b>  los dos dígitos son ceros
             •	 <b>1512</b> <b>512</b>  es múltiplo de  <b>8</b>
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 9</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 9</h3>
             Un número es divisible por  <b>9</b> , si la suma de sus dígitos es múltiplo de <b>9</b>  .
             Ejemplos:
             •	 <b>81</b> <b>8+1=9</b>  es múltiplo de  <b>9</b>
             •	 <b>3663</b> <b>3+6+6+3=18</b>  es múltiplo de  <b>9</b>
             •	  <b>1512</b> <b>1+5+1+2=9</b>  es múltiplo de  <b>9</b>
  
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 10</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 10</h3>
             Un número es divisible por  <b>10</b>, si la cifra de las unidades es  <b>0</b>.
             Ejemplos:
             •	 10000
             •	 1530
             •	 150
 
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 11</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 11</h3>
             Un número es divisible por <b>11</b>, , si la diferencia entre la suma de las cifras que ocupan los lugares impares y la de los pares es  <b>0</b>, o un múltiplo de <b>11</b>, .
             Ejemplos:
             •	121
@@ -436,7 +436,7 @@ Ejemplo:
             title: "Operaciones combinadas",
             description: `
             Las <b>operaciones combinadas</b> son aquellas que incluyen más de un tipo de operación. Este tipo de operaciones matemáticas incluyen sumas, restas, multiplicaciones y divisiones
-            <h3 style="color: #3b60e4">Como resolver operaciones combinadas</h3>
+            <h3 style="color: red">Como resolver operaciones combinadas</h3>
             El orden correcto a la hora de resolver estas oraciones es importante. Es necesario resolver cada parte de la operación en el orden adecuado. Este orden o jerarquía a la hora de resolver operaciones combinadas es el siguiente:
             <ol class="ml-15">
               <li>Paréntesis</li>
@@ -554,7 +554,7 @@ Ejemplo:
             1. Descomponer números en factores
             2. Simplificar fracciones
 
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 2</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 2</h3>
             Un número es divisible por <b>2</b> , si termina en cero o cifra par.
             Ejemplos:
             •	 130
@@ -562,20 +562,20 @@ Ejemplo:
             •	 10
             •	 5000
             
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 3</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 3</h3>
             Un número es divisible por  <b>3</b>, si la suma de sus dígitos es múltiplo de  <b>3</b>.
             Ejemplos:
             •	 564 -> 5 +  6 + 4 = 15 
             •	 2040 -> 2 + 0 + 4 + 0 = 6
 
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 4</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 4</h3>
             Un número es divisible por  <b>4</b> , si sus dos últimas cifras son ceros o múltiplo de  <b>4</b>.
             Ejemplos:
             •	 <b>136</b> <b>36</b>   es múltiplo de  <b>4</b>
             •	<b>400</b>  los dos dígitos son ceros
             •	 <b>1028</b> <b>28</b>  es múltiplo de  <b>4</b>
  
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 5</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 5</h3>
             Un número es divisible por  <b>5</b>, si termina en cero o cinco.
             Ejemplos:
             •	 45
@@ -583,7 +583,7 @@ Ejemplo:
             •	 30
             •	 230
  
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 6</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 6</h3>
             Un número es divisible por <b>6</b>, si es divisible por <b>2</b>  y por  <b>3</b>. 
             Ejemplos:
             •	 72
@@ -593,34 +593,34 @@ Ejemplo:
             -> <b>324</b> es múltiplo de 2
             -> <b>3 + 2 + 4 = 9 </b> es múltiplo de 3
 
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 7</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 7</h3>
             Un número es divisible por <b>7</b> cuando la diferencia entre el número sin la cifra de las unidades y el doble de la cifra de las unidades es <b>0</b>  ó un múltiplo de   <b>7</b>.
             Ejemplos:
             •	 343
             -> <b>34-2•3= 28 </b>-> es múltiplo de 7
             •	 105
             -> <b>105-5•2= 0 </b>
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 8</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 8</h3>
             Un número es divisible por  <b>8</b> , si sus tres últimas cifras son ceros o múltiplo de   <b>8</b>.
             Ejemplos:
             •	 <b>1048</b> <b>48</b>   es múltiplo de  <b>8</b>
             •	<b>400</b>  los dos dígitos son ceros
             •	 <b>1512</b> <b>512</b>  es múltiplo de  <b>8</b>
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 9</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 9</h3>
             Un número es divisible por  <b>9</b> , si la suma de sus dígitos es múltiplo de <b>9</b>  .
             Ejemplos:
             •	 <b>81</b> <b>8+1=9</b>  es múltiplo de  <b>9</b>
             •	 <b>3663</b> <b>3+6+6+3=18</b>  es múltiplo de  <b>9</b>
             •	  <b>1512</b> <b>1+5+1+2=9</b>  es múltiplo de  <b>9</b>
  
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 10</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 10</h3>
             Un número es divisible por  <b>10</b>, si la cifra de las unidades es  <b>0</b>.
             Ejemplos:
             •	 10000
             •	 1530
             •	 150
 
-            <h3 style="color: #3b60e4"> Criterio de divisibilidad por 11</h3>
+            <h3 style="color: red"> Criterio de divisibilidad por 11</h3>
             Un número es divisible por <b>11</b>, , si la diferencia entre la suma de las cifras que ocupan los lugares impares y la de los pares es  <b>0</b>, o un múltiplo de <b>11</b>, .
             Ejemplos:
             •	121
@@ -685,14 +685,14 @@ Para comparar fracciones, se deben seguir algunos pasos:
 
             Se tienen en cuenta los números en los que las divisiones den de resto cero. Puedes repasar las divisiones por una cifra si lo prefieres para ayudarte a recordar las partes que componen una división.
             
-            <h3 style="color: #3b60e4">Método 1 para calcular el MCD</h3>
+            <h3 style="color: red">Método 1 para calcular el MCD</h3>
             Es el que venimos utilizando en los ejemplos de más arriba. Para ello es importante fijarnos muy bien lo que significa máximo común divisor.
 
             Escribimos todos los divisores de cada número, y de éstos señalamos los divisores comunes.
             El divisor mayor será el MCD de esos números.
             El inconveniente de este método es que un número grande puede tener muchos divisores y escribirlos todos puede ser muy pesado. La ventaja que tiene es que si lo tienes en cuenta, a veces no tendrás que calcular nada, fíjate, si te piden el máximo común divisor de tres números y resulta que uno divide a los demás, ya tienes el máximo común divisor. Por ejemplo el máximo común divisor de 36, 12, y 84. Como 12 divide a los tres, no podrá haber ningún divisor común mayor.
 
-            <h3 style="color: #3b60e4">Método 2 para calcular el MCD</h3>
+            <h3 style="color: red">Método 2 para calcular el MCD</h3>
             Descomposición de factores o descomposición en números primos.
 
             Descomponemos cada número en factores primos.
@@ -739,13 +739,13 @@ El 12 se puede escribir como la multiplicación de 1 x 12, y también se puede e
             Tenemos que quedarnos con el <b>mínimo.</b>
             Por tanto, <b>el mínimo común múltiplo </b>de 4 y 6 es 12:
             
-            <h3 style="color: #3b60e4">Descomposición en números primos</h3>
+            <h3 style="color: red">Descomposición en números primos</h3>
             Recordamos cómo<b> descomponer números</b> para escribirlos como un <b>producto de números primos</b>, lo cual facilitará el cálculo del mínimo común múltiplo.
             Podemos escribir cualquier número como producto de potencias de números primos. Por ejemplo,
            <img src="https://i.ibb.co/fpmjcNv/Picture1.png" class="mt-2 mx-auto d-flex" border="0"></a>
            Para descomponer un número dividimos el número sucesivamente entre números primos hasta llegar a 1.
           La descomposición es el producto de las potencias de los números primos, siendo sus exponentes el número de veces que hemos dividido por dicho primo.
-          <h3 style="color: #3b60e4">Obtención del mcm</h3>
+          <h3 style="color: red">Obtención del mcm</h3>
           <b>Regla para calcular el mcm:</b>
           «Bases comunes y no comunes al mayor exponente»
           <b>Método:</b>
@@ -914,13 +914,13 @@ Ejemplo:
             Tenemos que quedarnos con el <b>mínimo.</b>
             Por tanto, <b>el mínimo común múltiplo </b>de 4 y 6 es 12:
             
-            <h3 style="color: #3b60e4">Descomposición en números primos</h3>
+            <h3 style="color: red">Descomposición en números primos</h3>
             Recordamos cómo<b> descomponer números</b> para escribirlos como un <b>producto de números primos</b>, lo cual facilitará el cálculo del mínimo común múltiplo.
             Podemos escribir cualquier número como producto de potencias de números primos. Por ejemplo,
            <img src="https://i.ibb.co/fpmjcNv/Picture1.png" class="mt-2 mx-auto d-flex" border="0"></a>
            Para descomponer un número dividimos el número sucesivamente entre números primos hasta llegar a 1.
           La descomposición es el producto de las potencias de los números primos, siendo sus exponentes el número de veces que hemos dividido por dicho primo.
-          <h3 style="color: #3b60e4">Obtención del mcm</h3>
+          <h3 style="color: red">Obtención del mcm</h3>
           <b>Regla para calcular el mcm:</b>
           «Bases comunes y no comunes al mayor exponente»
           <b>Método:</b>
